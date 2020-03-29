@@ -1,0 +1,84 @@
+/* media queries for responsive */
+@media (max-width:768px){
+    header #website-logo,nav,#service .box{
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    #about .about-box{
+        float: none;
+        width: 100%;
+        text-align: center;
+        box-shadow: none;
+        border: none;
+        margin-left: -1px;
+        
+    }
+        #contact form{
+            width: 100%;
+            text-align: center;
+            padding: 20px 0px;
+            color: white;
+            border: none;
+        }
+        form input[type=Submit]{
+            width: 50%;
+            font-weight: bold;
+            color: white;
+            background-color:#ff6348;
+            border: none;
+            font-size: 15px;
+            letter-spacing: 1px;
+            margin: 15px 0px;
+        }    
+}
+@media (max-width:800px){
+    #about .about-box{
+        float: none;
+        width: 100%;
+        text-align: center;
+        box-shadow: none;
+        border: none;
+        margin-left: -1px;
+    }
+    form input[type=Submit]{
+        width: 50%;
+        font-weight: bold;
+        color: white;
+        background-color:#ff6348;
+        border: none;
+        font-size: 15px;
+        letter-spacing: 1px;
+        margin: 15px 0px;
+    }
+}
+@media (max-width:414px){
+    #contact form{
+        width: 100%;
+        text-align: center;
+        padding: 20px 0px;
+        color: white;
+        border: none;
+    }
+   
+}
+@media (max-width:375px){
+    #contact form{
+        width: 100%;
+        text-align: center;
+        padding: 20px 0px;
+        color: white;
+        border: none;
+    }
+    form input[type=Submit]{
+        width: 100%;
+        font-weight: bold;
+        color: white;
+        background-color:#ff6348;
+        border: none;
+        font-size: 15px;
+        letter-spacing: 1px;
+        margin: 15px 0px;
+    }
+}
