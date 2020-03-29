@@ -81,4 +81,21 @@
         letter-spacing: 1px;
         margin: 15px 0px;
     }
+    .footer-text{
+        font-size: 15px;
+        height: 60px;
+        background-color: #16a085;
+        color: white;
+        line-height: 60px;
+        text-align: center;
+    }
+    .footer-logo i{
+        padding: 0px 10px;
+        font-size: 18px;    
+    }
+    .footer-nav ul a{
+        color: white;
+        padding: 0px 10px;
+        font-size: 15px;
+     }
 }
